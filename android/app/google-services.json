@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "570617674935",
+    "project_id": "travelin-app-29012",
+    "storage_bucket": "travelin-app-29012.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570617674935:android:60749566e0f4fcdf08a132",
+        "android_client_info": {
+          "package_name": "com.example.travelin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_5Dg47xYdPWvz51BwU_xHlT-PQTDDkaY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
