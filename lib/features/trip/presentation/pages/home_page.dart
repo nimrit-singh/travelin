@@ -2,9 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:travelin/features/auth/presentation/cubits/auth_cubit.dart';
 import 'package:provider/provider.dart';
 import 'package:travelin/features/trip/presentation/components/trip_card.dart';
-import 'package:travelin/features/trip/presentation/pages/home_body.dart';
 import 'package:travelin/features/trip/presentation/pages/trip_history.dart';
-
 import 'add_trip.dart';
 
 class HomePage extends StatefulWidget {

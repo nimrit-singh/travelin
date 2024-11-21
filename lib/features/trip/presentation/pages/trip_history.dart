@@ -3,16 +3,35 @@ import 'package:travelin/features/trip/presentation/components/trip_tile.dart';
 
 class TripHistory extends StatelessWidget {
   const TripHistory({super.key});
-  final items = const ['Item 1','Item 2','Item 3','Item 4','Item 5','Item 6','Item 7','Item 8','Item 9',];
+
+  // List of arbitrary trip names
+  final items = const [
+    'Trip to Paris',
+    'New York Adventure',
+    'Tokyo Sightseeing Tour',
+    'Road Trip to California',
+    'Hiking in the Swiss Alps',
+    'Cultural Exploration in Morocco',
+    'Safari in Kenya',
+    'Beach Vacation in Bali',
+    'Historic Tour of Rome',
+  ];
+
   @override
   Widget build(BuildContext context) {
-
-    return Container(
-      child: ListView.builder(
-        itemCount: items.length,
-        itemBuilder: (context, index) {
-          return TripTile(name:items[index]);
-        },
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text("Trip History"),
+        backgroundColor: Colors.blueAccent,
+      ),
+      body: Padding(
+        padding: const EdgeInsets.all(10.0),
+        child: ListView.builder(
+          itemCount: items.length,
+          itemBuilder: (context, index) {
+            return TripTile(name: items[index]);
+          },
+        ),
       ),
     );
   }
