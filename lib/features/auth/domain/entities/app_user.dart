@@ -8,7 +8,7 @@ class AppUser{
     required this.name,
 });
   // converting app user > json
-Map<String, dynamic> toJSon(){
+Map<String, dynamic> toJson(){
   return {
     'uid':uid,
     'email':email,
